@@ -117,3 +117,7 @@ function testCMCFunctions() {
   console.log("Market Caps:", marketCaps);
   console.log("Volumes 24h:", volumes);
   console.log("Dernières Mises à Jour:", lastUpdates);
+```
+
+![image](https://github.com/user-attachments/assets/0fea8541-4801-40eb-826b-8e046e982005)
+
