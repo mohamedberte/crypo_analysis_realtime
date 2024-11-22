@@ -119,5 +119,6 @@ function testCMCFunctions() {
   console.log("Dernières Mises à Jour:", lastUpdates);
 ```
 
-![image](https://github.com/user-attachments/assets/0fea8541-4801-40eb-826b-8e046e982005)
+![image](https://github.com/user-attachments/assets/91e7e095-6036-4e79-84a6-e5b8309e33ec)
+
 
