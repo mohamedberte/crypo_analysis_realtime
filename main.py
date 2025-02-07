@@ -2,8 +2,11 @@ import pandas as pd
 import requests
 from datetime import datetime
 import os
+from dotenv import load_dotenv, find_dotenv
 
-API_KEY = "b88ee10c-aa4f-4152-9968-5ed0d9c74060"
+load_dotenv(override=True)
+
+API_KEY = os.getenv('API_KEY')
 DATE_TODAY = datetime.now().strftime("%Y-%m-%d")  # Format : YYYY-MM-DD
 OUTPUT_FILE_NAME = f"data/crypto_data_updated_{DATE_TODAY}.csv"
 INPUT_FILE_NAME = "data/cryptos.csv"
